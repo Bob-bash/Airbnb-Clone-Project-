@@ -1,0 +1,128 @@
+.place {
+  padding: 2vh 3vw;
+}
+.place__t__in {
+  width: 100%;
+}
+.place__in__com {
+  padding: 10px;
+  margin-top: 1vh;
+  padding-left: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 2vw;
+}
+.place__in__com:focus {
+  border: 2px solid var(--ff395c);
+}
+.place__pw__btn {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 17px;
+  padding: 10px 0;
+  flex-basis: 10%;
+}
+.place__pw {
+  width: 100%;
+  display: flex;
+  gap: 1vw;
+}
+.place__pw__in {
+  flex-basis: 90%;
+}
+.place__upw i {
+  font-size: 24px;
+  font-weight: bold;
+}
+.place__de__in {
+  width: 100% !important;
+  padding-top: 2vh;
+  resize: none;
+}
+.place__perk {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 3vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  gap: 5px;
+}
+.place__imgw {
+  position: relative;
+}
+.place__icon3 {
+  left: 5%;
+  top: 10%;
+}
+.place__icon {
+  position: absolute;
+  color: var(--ff395c);
+  font-weight: bold;
+  font-size: 25px;
+  right: 5%;
+  cursor: pointer;
+}
+.place__icon2 {
+  bottom: 10%;
+}
+.place__icon1 {
+  top: 10%;
+}
+.place__perks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2vw;
+}
+.place__perk i {
+  font-size: 25px;
+}
+.place__perk input {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--ff395c);
+}
+.place__upw {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.place__p__label {
+  width: 200px !important;
+  height: 110px;
+  cursor: pointer;
+  border-radius: 1vw;
+  display: grid;
+  place-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+.place__img {
+  border-radius: 1vw;
+  width: 200px;
+  height: 110px;
+}
+.place__p__btns {
+  width: 100%;
+  margin-top: 2vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1vw;
+}
+.places__ch__inw {
+  display: flex;
+  flex-direction: column;
+}
+.place__ch__ins {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2vw;
+}
+.place__btn {
+  background-color: var(--ff395c);
+  border-radius: 2vw;
+  color: var(--whiteColor);
+  padding: 10px 0;
+  width: 100%;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}

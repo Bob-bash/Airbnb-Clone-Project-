@@ -1,0 +1,107 @@
+.booking__icon {
+  font-weight: 500;
+  font-size: 25px;
+  color: var(--blackColor);
+}
+.booking__icon2 {
+  position: absolute;
+  left: 50%;
+  bottom: 2vh;
+}
+.booking__icon2 i {
+  font-weight: bold;
+}
+.booking:hover .booking__icon2 i {
+  color: white;
+}
+.bookings {
+  margin-top: 2vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  padding: 2vh 6vw;
+}
+.MuiTooltip-tooltip {
+  color: red !important;
+  font-size: 16px !important;
+  background-color: black !important;
+  font-weight: bold;
+}
+.booking {
+  position: relative;
+  width: 100%;
+  border-radius: 1vw;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 20px 2vw;
+  gap: 3vw;
+  overflow: hidden;
+  display: flex;
+}
+.booking__imgw {
+  flex: 1.2;
+}
+.booking__img {
+  border: 4px solid var(--blackColor);
+  border-radius: 10px;
+  width: 100%;
+}
+.bookingr {
+  flex: 3;
+}
+.booking:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  outline: 4px solid var(--blackColor);
+}
+.bookingr__m__daysw {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.bookingr {
+  display: flex;
+  flex-direction: column;
+}
+.bookingr__m__days span {
+  font-weight: bold;
+}
+.bookingr__m__days {
+  align-self: flex-start;
+  width: max-content;
+  display: flex;
+  color: var(--ff395c);
+  margin: 25px 0;
+  gap: 10px;
+  align-items: center;
+}
+.bookingr__m__datew {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bookingr__m__date,
+.bookingr__b div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.bookingr__b div {
+  gap: 5px !important;
+}
+.booing__icon1 {
+  font-weight: 500;
+  font-size: 25px;
+}
+.bookingr__b {
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+.booing__no {
+  width: 100vw;
+  text-align: center;
+  margin-top: 22vh;
+  transform: translateX(-11vw);
+}

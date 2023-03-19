@@ -1,0 +1,56 @@
+.accounnt__link__active {
+  color: var(--whiteColor);
+  background-color: var(--ff395c);
+  border-radius: 2vw;
+  padding: 10px 25px;
+  font-weight: 500;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.accounnt__link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.accounnt__link i {
+  font-size: 20px;
+}
+.account__links {
+  display: flex;
+  align-items: center;
+  gap: 5vw;
+  justify-content: center;
+  transform: translateX(-4vw);
+  margin-top: 5vh;
+}
+.profilew {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  align-items: center;
+  margin-top: 9vh;
+}
+.profile__btn {
+  background-color: var(--ff395c);
+  color: var(--whiteColor);
+  padding: 1vh 5vw;
+  border-radius: 2vw;
+  font-weight: 500;
+  font-size: var(--16Size);
+}
+.accomodations {
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  background-color: var(--ff395c);
+  gap: 1vw;
+  align-items: center;
+  width: max-content;
+  margin: 5vh auto;
+  cursor: pointer;
+  border-radius: 2vw;
+  justify-content: center;
+}
+.accomodations i {
+  font-weight: bold;
+  font-size: 20px;
+}

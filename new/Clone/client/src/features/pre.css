@@ -1,0 +1,18 @@
+.pre__icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: white;
+  position: absolute;
+  left: 5%;
+  z-index: 1000;
+  cursor: pointer;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  font-size: 23px;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.6);
+}

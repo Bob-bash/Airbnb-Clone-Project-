@@ -1,0 +1,68 @@
+.accomo__img {
+  width: 200px;
+  height: 200px;
+  border-radius: 1vw;
+}
+.accomow {
+  margin: 5vh auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+}
+.accomo__item {
+  gap: 2vw;
+  overflow: hidden;
+  position: relative;
+  border-radius: 1vw;
+  width: 90vw;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 3vh 2vw;
+  gap: 3vw;
+  align-items: flex-start;
+}
+.accomo__icon {
+  position: absolute;
+  /* bottom: 10%; */
+  bottom: -10vh;
+  transition: 0.3s;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: var(--ff395c);
+  width: max-content;
+  padding: 7px 10px;
+  border-radius: 10px;
+  height: max-content;
+}
+.accomo__texts p {
+  margin-top: 2vh;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: hidden;
+}
+.accomo__texts {
+  width: 55vw;
+}
+.accomo__item:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.accomo__item:hover .accomo__img {
+  filter: grayscale(0.5);
+}
+.accomo__item:hover .accomo__icon {
+  bottom: 10%;
+}
+
+.accomo__item:hover .accomo__h2 {
+  background: linear-gradient(45deg, blue 30%, var(--ff395c));
+  -webkit-background-clip: text;
+  color: transparent;
+}
